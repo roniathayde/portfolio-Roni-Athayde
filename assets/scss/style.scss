@@ -1,3 +1,5 @@
-b{
-    color: yellow;
-}
+@import "./reset-css.scss";
+@import "./variables.scss";
+@import "./mixins.scss";
+@import "./header.scss";
+@import "./fonts.scss";

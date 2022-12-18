@@ -9,7 +9,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
+<body class="">
     
     <!-- HEADER -->
     <header class="header">
@@ -18,11 +18,33 @@
         </div>
 
         <article class="header_ct">
-            <nav class="header_ct_nav"></nav>
-
-            <div class="header_ct_theme"></div>
+            <!-- nav -->
+            <nav class="header_ct_nav">
+                <ul class="header_ct_nav_linksct">
+                    <a href=""><li class="header_ct_nav_linksct--link">Sobre mim</li></a>
+                    <a href=""><li class="header_ct_nav_linksct--link">Projetos</li></a>
+                    <a href=""><li class="header_ct_nav_linksct--link">Midias</li></a>
+                    <a href=""><li class="header_ct_nav_linksct--link">Contato</li></a>
+                </ul>
+            </nav>
+            <!-- theme -->
+            <div class="header_ct_theme">
+                <label>
+                    <div class="header_ct_theme--toggle">
+                        <div class="header_ct_theme--toggle_slide">
+                            <div class="header_ct_theme--toggle_slide--ball"></div>
+                        </div>
+                    </div>
+                    <input type="checkbox">
+                    <p>Tema 💡</p>
+                </label>
+               
+            </div>
         </article>
     </header>
 
+
+
+    <script src="./assets/js/dark-theme.js"></script>
 </body>
 </html>
