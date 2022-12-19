@@ -1,0 +1,17 @@
+.major_titlect{
+    @include displayDirection(flex,row);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 77px;
+
+    .major_titlect--title{
+        font-size: 36rem;
+        font-weight: 500;
+        color: var(--gray-100);
+        text-align: center;
+        
+        @media (max-width:480px){
+            font-size: 32rem;
+        }
+    }
+}

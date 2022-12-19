@@ -1,0 +1,34 @@
+.about{
+    margin-top: 77px;
+    @include displayDirection(flex,row);
+    width: 100%;
+    gap: 46px;
+
+    .about_imgct{
+        width: 100%;
+
+        .about_imgct--img{
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+
+    .about_desc{
+        width: 100%;
+
+        .about_desc--content{
+            font-size: 20rem;
+            color: var(--gray-100);
+            font-weight: 400;
+            &:last-child{
+                margin-top: 32px;
+            }
+        }
+    }
+
+
+    @media (max-width:768px){
+        flex-direction: column;
+        padding: 0 4%;
+    }
+}
