@@ -1,0 +1,28 @@
+.projects{
+    margin-top: 72px;
+    @include displayDirection(flex,column);
+    align-items: center;
+
+    .projects--title{
+        font-size: 36rem;
+        color: var(--gray-100);
+        font-weight: 500;
+        margin-bottom: 32px;
+    }
+
+    .projects--description{
+        font-size: 20rem;
+        color: var(--gray-100);
+        margin-bottom: 32px;
+    }
+
+    .projects--btn{
+        font-size: 20rem;
+        color: var(--gray-100);
+        border: 0.5px solid var(--gray-100);
+        border-radius: 8px;
+        padding: 9px 59px;
+        text-decoration: none;
+        margin-top: 32px;
+    }
+}
