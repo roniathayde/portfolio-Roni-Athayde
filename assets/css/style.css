@@ -239,6 +239,11 @@ html, body {
   flex-direction: column;
   align-items: center;
 }
+@media (max-width: 912px) {
+  .projects {
+    padding: 0 2%;
+  }
+}
 .projects .projects--title {
   font-size: 36rem;
   color: var(--gray-100);
@@ -249,6 +254,7 @@ html, body {
   font-size: 20rem;
   color: var(--gray-100);
   margin-bottom: 32px;
+  text-align: center;
 }
 .projects .projects--btn, .projects .projects--btn:visited {
   font-size: 20rem;
@@ -270,6 +276,7 @@ html, body {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 64px;
+  justify-content: center;
 }
 .projects .projects_all-projects .projects_all-projects--a-project:nth-child(n+9):nth-child(-n+100) {
   opacity: 0;
