@@ -10,6 +10,8 @@ html, body {
   font-size: 1px;
   background-color: var(--background-color);
   position: relative;
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
 }
 
 :root {
