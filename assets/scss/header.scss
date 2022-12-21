@@ -1,5 +1,5 @@
 .header{
-    @media (max-width:412px){
+    @media (max-width:480px){
         padding: 30px 6px;
     }
     @include displayDirection(flex,row);
