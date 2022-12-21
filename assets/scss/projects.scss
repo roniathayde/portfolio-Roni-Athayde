@@ -41,6 +41,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         gap: 64px;
+        justify-content: center;
         .projects_all-projects--a-project:nth-child(n+9):nth-child(-n+100){
             opacity: 0;
             height: 0;
