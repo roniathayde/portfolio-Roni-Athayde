@@ -50,7 +50,7 @@
 
         .projects_all-projects--a-project{
             border-radius: 16px;
-            border: 0.5px solid #D9D9D9;
+            border: 0.5px solid var(--gray-100);
             width: 180px;
             height: 180px;
             display:flex;
@@ -67,10 +67,10 @@
                 align-items: center;
                 text-decoration: none;
                 @include displayDirection(flex, row);
-    
+                
                 .projects_all-projects--a-project_link--title{
+                    color: var(--gray-100);
                     font-size: 20rem;
-                    color: gray;
                     text-align: center;
 
                 }
