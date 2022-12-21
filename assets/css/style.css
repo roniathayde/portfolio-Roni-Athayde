@@ -18,6 +18,7 @@ html, body {
   --gray-800:#18181B;
   --gray-900:#121214;
   --gray-950:#0B0B0B;
+  --gray-980:#b5b5b5;
   --background-color: #121214e0;
 }
 :root .light-theme {
@@ -26,6 +27,7 @@ html, body {
   --gray-800:#DEDEDE;
   --gray-900:#575757;
   --gray-950:#D9D9D9;
+  --gray-980:#282828;
   --background-color: #b7b7b7ed;
 }
 
@@ -268,7 +270,7 @@ html, body {
   cursor: pointer;
 }
 .projects .projects--btn:hover {
-  box-shadow: inset 500px 0 0 0 var(--gray-100);
+  box-shadow: inset 500px 0 0 0 var(--gray-980);
   color: var(--gray-900);
 }
 .projects .projects_all-projects {
